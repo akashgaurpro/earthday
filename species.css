@@ -1,0 +1,767 @@
+body
+{
+	background-image:url(leaf-background-2.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.jumbotron
+{
+	margin-top: -50px;
+	margin-bottom:0; 
+	background-image:url(leaf-background-2.jpg);
+	background-attachment:fixed;
+	background-size:100%;
+}
+
+/*
+.jumbotron img
+{
+	float: left;
+    width: 165px;
+	border-radius:20px;
+}*/
+
+.fa-globe
+{
+	float: left;
+	font-size:157px;
+	color:#1f4399;
+}
+
+
+.fa-globe
+{
+	animation: earth 1.5s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes earth
+{
+	0% {transform:rotateY(0deg);}
+	10% {transform:rotateY(36deg);}
+	20% {transform:rotateY(72deg);}
+	30% {transform:rotateY(108deg);}
+	40% {transform:rotateY(144deg);}
+	50% {transform:rotateY(180deg);}
+	60% {transform:rotateY(144deg);}
+	70% {transform:rotateY(108deg);}
+	80% {transform:rotateY(72deg);}
+	90% {transform:rotateY(36deg);}
+	100% {transform:rotateY(0deg);}
+}
+
+.jumbotron h1
+{
+	font-family:Cooper Black;
+	margin-top: 50px;
+}
+
+.button
+{
+	 text-decoration:none;
+	 /*width:102%;*/
+	 display: fixed;
+	 margin-bottom:2px;
+	 /*margin-left:-8px;*/
+	 /*position:fixed;*/
+	 border-bottom:55px solid lightblue;
+	 border-radius:5px;
+	 background-color:lightblue;
+}
+
+.button a
+{
+	float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mo
+{
+	display:none;
+	margin-left:10px;
+	background-color:lightblue;
+	border-radius:5px;
+}
+
+.button a:hover{
+	color:red;
+	background-color:lightgray;
+	border-radius:10px;
+}
+
+.button button:hover{
+	color:red;
+	background-color:lightgray;
+	border-radius:10px;
+}
+
+#active
+{
+	background-color:lightyellow;
+	border-radius:10px;
+}
+
+.carousel-inner img {
+    min-width: 100%;
+  min-height: 100%;
+  }
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+	text-align:center;
+	color:white;
+	margin-top:200px;
+    position: relative;
+    z-index: 2;
+}
+
+.container a{
+	background-color:white;
+	text-decoration:none;
+	border-radius:20px;
+	
+	font-size:20px;
+	padding:15px;
+}
+
+.container a:hover{
+	color:red;
+	background-color:lightgray;
+	border-bottom:2px solid red;
+}
+
+.container :hover{
+	color:red;
+}
+
+header .overlay {
+  position: absolute;
+  top: -100;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+
+
+.text_color
+{
+	color:red;
+	animation: te 5s;
+	animation-iteration-count:20;
+	animation-timing-function: linear;
+}
+
+@keyframes te
+{
+	 0%  {color:red;}
+	25%  {color:yellow;}
+	50%  {color:green;}
+	75%  {color:lightblue;}
+	100% {color:lightyellow;}
+}
+
+
+
+.flora_info
+{
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.flora_info h1
+{
+	font-family:Didot;
+	color:#003e00;
+}
+
+.flora_info
+{
+	font-family:Comic Sans;
+	font-size:20px;
+	color:#126d65;
+	margin-bottom: 0rem;
+}
+
+
+.main
+{
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.main h1
+{
+	color:red;
+	font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.hepo
+{
+	float:right;
+	height: 300px;
+    width: 450px;
+	margin-top: 2px;
+	margin-left:50px;
+    border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+
+.animal:hover
+{
+	text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+
+.spe
+{
+	border:1px solid black;
+	padding:100px 0px 100px 0px;
+	background-color:#8bc34ae8;
+}
+
+.spe h3
+{
+	text-align:center;
+	margin-bottom:50px;
+}
+
+
+
+.image_s img
+{
+	margin-left: 20px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 30px;
+	border-bottom:3px solid red;
+    width: 23%;
+    height: 220px;
+}
+
+.image_s img:hover
+{
+	border:1px solid red;
+}
+
+.image_s:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.hepo:hover{
+	position: relative;
+    animation: shaa 5s 2;
+    animation-direction: alternate;
+	background:#80808078;
+}
+
+@keyframes shaa
+{
+	0% {left: 0px;top:0px;}
+  50%  {border-radius:50px;left: 0px; top: 140px;}
+  100% {left: 0px; top: 0px;}
+}
+
+
+.e:hover
+{
+	position: relative;
+    animation: sha 5s 2;
+	animation-iteration-count:2;
+    animation-direction: alternate;
+}
+
+@keyframes sha
+{
+	0% {left: 0px;top:0px;}
+  50%  {border-radius:50px;left: 0px; top: 90px;}
+  100% {left: 0px; top: 0px;}
+}
+
+
+.e
+{
+	float: right;
+    height: 300px;
+    width: 450px;
+    /* margin-bottom: 33px; */
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-right: 0px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.co
+{
+	border: 1px solid green;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+.co:hover
+{
+	border-top:3px solid red;
+	border-bottom:3px solid red;
+	background:#ffffffcf;
+}
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.shakeimage:hover
+{
+	border-bottom:3px solid red;
+	border-top:3px solid red;
+	animation: sh 0.5s;
+	animation-iteration-count:10;
+}
+
+@keyframes sh
+{
+	0% {border-radius:50%; transform:translate(1px, 1px) rotate(0deg);}
+	10% {border-radius:50%;transform:translate(-1px, -2px) rotate(-1deg);}
+	20% {border-radius:50%;transform:translate(-3px, 0px) rotate(0deg);}
+	30% {border-radius:50%;transform:translate(3px, 2px) rotate(-1deg);}
+	40% {border-radius:50%;transform:translate(1px, -1px) rotate(0deg);}
+	50% {border-radius:50%;transform:translate(-1px, 2px) rotate(-1deg);}
+	60% {border-radius:50%;transform:translate(-3px, 1px) rotate(0deg);}
+	70% {border-radius:50%;transform:translate(3px, 1px) rotate(-1deg);}
+	80% {border-radius:50%;transform:translate(-1px, -1px) rotate(0deg);}
+	90% {border-radius:50%;transform:translate(1px, 2px) rotate(-1deg);}
+	100% {border-radius:50%;transform:translate(1px, 2px) rotate(0 deg);}
+}
+
+
+/* bottom code */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: red;
+  color:black;
+}
+/* bottom code finished 
+
+
+.so_link
+{
+	float:right;
+}*/
+
+.la
+{
+	background-color:#bdb8b861;
+}
+
+.ll
+{
+	margin-left: 50px;
+    padding-bottom: 50px;
+	padding-top:50px;
+}
+
+.ll p
+{
+	 float:left;
+}
+
+.ll img
+{
+	width:130px;
+	height:130px;
+	margin-left:80px;
+	border-radius:50%;
+}
+
+footer
+{
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #9d8c81;
+    margin: 0px auto 0;
+    padding: 10px 0 0px;
+    background: #2d2520;
+    width: 100%;
+}
+
+
+.site_footer .aboutwpbeginner {
+    padding: 0 30px 0 15px;
+    width: 33%;
+    display: inline-block;
+	margin-left: 100px;
+}
+
+.site_footer .site-links {
+    width: 15%;
+    display: inline-block;
+    margin: 0 30px 0 115px;
+}
+
+.site_footer .our-sites {
+    width: 15%;
+    display: inline-block;
+    margin: 0 30px 0 65px;
+}
+
+
+
+
+
+.glow {
+	    font-family: cursive;
+	margin-top: 229px;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px green; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #559a05; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4300bbc2; 
+}
+
+
+
+
+
+
+@media only screen and (max-width:850px){
+  
+  body{
+    background-color:lightgrey;
+  }
+ 
+.jumbotron
+{
+	margin-bottom:-15px;
+	margin-top: -25px;
+}
+
+/*
+.jumbotron img
+{
+	width:50%;
+	margin-left: 85px;
+}*/
+
+.fa-globe {
+    font-size: 130px;
+	margin-left: 110px;
+}
+
+.jumbotron h1
+{
+	
+	margin-top: 133px;
+}
+
+.flora_info
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+
+.main
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.main h1 {
+    color: #a90329;
+	font-size:23px;
+}
+
+
+.co
+{
+	border-top:3px solid red;
+	border-bottom:3px solid red;
+	background:#ffffffcf;
+}
+
+
+.hepo
+{
+	width: 334px;
+    height: 200px;
+    border-top-left-radius: 50px;
+}
+
+.spe
+{
+    padding:20px;
+}
+
+.image_s img {
+    width: 43%;
+    margin-bottom: 20px;
+}
+
+.e
+{
+	width:334px;
+	height:200px;
+	border-top-left-radius: 50px;
+}
+
+.ll
+{
+	margin:0px;
+}
+
+.ll p
+{
+	display:none;
+}
+
+.ll img {
+    display: inline;
+    margin-left: 16px;
+    width: 43%;
+    height: 15%;
+    margin-bottom: 20px;
+}
+
+#im_last
+{
+	display: inline;
+    margin-left: 25%;
+    width: 43%;
+    height: 15%;
+    margin-bottom: 20px;
+}
+
+.site_footer .aboutwpbeginner {
+    padding: 0 30px 0 15px;
+    width: 90%;
+	margin-left: 15px;
+}
+
+.site_footer .site-links {
+    width: 50%;
+    margin: 0 30px 0 115px;
+}
+
+.site_footer .our-sites {
+    width: 20%;
+    margin: 0 30px 0 65px;
+}
+
+
+
+
+.img{
+	border-radius:10%;
+	
+}
+
+#demo img{
+	width:100%;
+	height:50%;
+}
+
+.sh
+{
+	display:none;
+}
+
+.not
+{
+	display:none;
+}
+
+/*.mo
+{
+	
+	background-color:lightblue;
+    display:contents;
+	margin-left:10px;
+	background-color:lightblue;
+	border-radius:5px;
+}*/
+  
+#info
+{
+	display:none;
+}
+  
+  /*#info1{
+	 display:none;
+  }
+  .info2{
+	 display:none;
+  }
+  .info3{
+	 display:none;
+  }
+  .info4{
+	 display:none;
+  }
+  .info5{
+	display:none;
+  }*/
+  .program
+{
+	border-radius:10px;
+	width:285px;
+	margin-left:23px;
+	/*margin-bottom:100px;*/
+	margin-top:50px;
+}
+
+
+/* Suggestion code */
+.Center
+{
+	margin-top:50px;
+	text-align:center;
+	color:#3b7687;
+}
+
+.form_border
+{
+	width: 342px;
+	border:2px solid black;
+	background-color:#b7d1d86e;
+	padding: 10px 0px 10px 0px;
+	margin:0 auto;
+	box-shadow: 5px 5px 8px 5px #888;
+	border-radius:15px;
+}
+/* Suggestion code finished */
+
+
+
+/* finished footer code */
+  
+}
+
+@media screen and (min-width:850px)
+{
+	#mob
+	{
+		display:none;
+	}
+	
+	.information
+	{
+		display:none;
+	}
+}
