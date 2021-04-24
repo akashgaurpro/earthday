@@ -586,6 +586,17 @@ footer
     color: #a90329;
 	font-size:23px;
 }
+	
+
+
+.co
+{
+	border-top:3px solid red;
+	border-bottom:3px solid red;
+	background:#80808078;
+}
+
+
 
 .hepo
 {
