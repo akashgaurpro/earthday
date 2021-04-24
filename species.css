@@ -302,10 +302,11 @@ header .overlay {
 }
 
 
-.co img:hover
+.e:hover
 {
 	position: relative;
     animation: sha 5s 2;
+	animation-iteration-count:2;
     animation-direction: alternate;
 }
 
@@ -323,9 +324,9 @@ header .overlay {
     height: 300px;
     width: 450px;
     /* margin-bottom: 33px; */
-    margin-top: -52px;
+    margin-top: 1px;
     margin-left: 50px;
-    margin-right: -20px;
+    margin-right: 0px;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 }
@@ -342,7 +343,7 @@ header .overlay {
 {
 	border-top:3px solid red;
 	border-bottom:3px solid red;
-	background:#80808078;
+	background:#ffffffcf;
 }
 
 .main:after {
@@ -586,16 +587,14 @@ footer
     color: #a90329;
 	font-size:23px;
 }
-	
 
 
 .co
 {
 	border-top:3px solid red;
 	border-bottom:3px solid red;
-	background:#80808078;
+	background:#ffffffcf;
 }
-
 
 
 .hepo
@@ -635,6 +634,15 @@ footer
 .ll img {
     display: inline;
     margin-left: 16px;
+    width: 43%;
+    height: 15%;
+    margin-bottom: 20px;
+}
+
+#im_last
+{
+	display: inline;
+    margin-left: 25%;
     width: 43%;
     height: 15%;
     margin-bottom: 20px;
